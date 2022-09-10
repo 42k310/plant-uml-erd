@@ -1,0 +1,8 @@
+@startuml
+
+!include users.puml
+!include companies.puml
+
+users }|-l-|| companies
+
+@enduml
